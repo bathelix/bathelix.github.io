@@ -1,0 +1,17 @@
+{
+  "name": "JaxPortfolio",
+  "version": "1.0.0",
+  "description": "Jax developer portfolio",
+  "main": "index.js",
+  "homepage": "https://bathelix.github.io/Professional_Portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Jack",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
