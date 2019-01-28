@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Jax developer portfolio",
   "main": "index.js",
-  "homepage": "https://bathelix.github.io/Professional_Portfolio",
+  "homepage": "https://bathelix.github.io",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
