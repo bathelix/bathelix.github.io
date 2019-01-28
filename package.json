@@ -6,7 +6,7 @@
   "homepage": "https://bathelix.github.io",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": " -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Jack",
   "license": "MIT",
