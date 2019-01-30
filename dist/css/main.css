@@ -64,7 +64,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #6ac46a; }
+      color: #f1ae32; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all .9s ease-out; }
     .menu .nav-link:hover {
-      color: #6ac46a; }
+      color: #f1ae32; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -101,7 +101,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/greenboard.jpg);
+    background: url(../img/abstract2.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #6ac46a; }
+  color: #f1ae32; }
 
 main {
   padding: 4rem;
@@ -150,7 +150,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #6ac46a;
+        color: #f1ae32;
         transition: all .9s ease-out; }
   main#home {
     overflow: hidden; }
@@ -179,7 +179,7 @@ main {
   .about-info .job {
     background: lighten #444, 5;
     padding: 0.5rem;
-    border-bottom: #6ac46a 5px solid; }
+    border-bottom: #f1ae32 5px solid; }
 
 .projects {
   display: grid;
@@ -190,7 +190,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #6ac46a;
+      border-color: #f1ae32;
       transition: all .9s ease-out; }
 
 .boxes {
@@ -207,7 +207,7 @@ main {
     transition: all .9s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #6ac46a;
+      background: #f1ae32;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -218,7 +218,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #6ac46a;
+    background: #f1ae32;
     color: #000; }
 
 .btn-dark {

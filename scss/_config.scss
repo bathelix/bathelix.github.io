@@ -1,7 +1,7 @@
 $primary-color: #444;
-$secondary-color: rgb(106, 196, 106);
+$secondary-color: rgb(241, 174, 50);
 $show-home-image: true;
-$home-image: url(../img/greenboard.jpg);
+$home-image: url(../img/abstract2.jpg);
 $background-opacity: 0.6;
 
 @mixin easeOut {
@@ -14,6 +14,7 @@ $background-opacity: 0.6;
             background: $home-image;
             background-attachment: fixed;
             background-size: cover;
+            
 
             &:after {
                 content: '';
