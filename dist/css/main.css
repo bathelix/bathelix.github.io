@@ -53,8 +53,8 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
+      width: 350px;
+      height: 350px;
       background: url("../img/meNYC.JPG");
       border-radius: 50%;
       border: solid 3px white; }
@@ -64,7 +64,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #f1ae32; }
+      color: #62bce6; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all .9s ease-out; }
     .menu .nav-link:hover {
-      color: #f1ae32; }
+      color: #62bce6; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -98,7 +98,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/abstract2.jpg);
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.6); }
+      background: rgba(68, 68, 68, 0.4); }
 
 h1,
 h2,
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f1ae32; }
+  color: #62bce6; }
 
 main {
   padding: 4rem;
@@ -150,7 +150,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #f1ae32;
+        color: #62bce6;
         transition: all .9s ease-out; }
   main#home {
     overflow: hidden; }
@@ -166,10 +166,10 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: white 3px solid; }
+    border: white 2px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -179,7 +179,7 @@ main {
   .about-info .job {
     background: lighten #444, 5;
     padding: 0.5rem;
-    border-bottom: #f1ae32 5px solid; }
+    border-bottom: #62bce6 5px solid; }
 
 .projects {
   display: grid;
@@ -187,10 +187,11 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
+    height: 225px;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #f1ae32;
+      border-color: #62bce6;
       transition: all .9s ease-out; }
 
 .boxes {
@@ -207,7 +208,7 @@ main {
     transition: all .9s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #f1ae32;
+      background: #62bce6;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -218,7 +219,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #f1ae32;
+    background: #62bce6;
     color: #000; }
 
 .btn-dark {

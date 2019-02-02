@@ -1,8 +1,8 @@
 $primary-color: #444;
-$secondary-color: rgb(241, 174, 50);
+$secondary-color: rgb(98, 188, 230);
 $show-home-image: true;
 $home-image: url(../img/abstract2.jpg);
-$background-opacity: 0.6;
+$background-opacity: 0.4;
 
 @mixin easeOut {
     transition: all .9s ease-out;
