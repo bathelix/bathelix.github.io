@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 350px;
       height: 350px;
-      background: url("../img/meNYC.JPG");
+      background: url("../img/businessMe.JPG");
       border-radius: 50%;
       border: solid 3px white; }
   .menu .nav-item {
@@ -166,7 +166,9 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: white 2px solid; }
+    border: white 2px solid;
+    height: 400px;
+    width: 320px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.2rem; }
